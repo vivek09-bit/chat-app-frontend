@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 import { Button, TextField, Container, Box, Typography, Paper } from '@mui/material';
 
-const socket = io('http://localhost:3001'); // Connect to your backend Socket.IO server
+const socket = io('https://chat-app-back-qqv1.onrender.com'); // Connect to your backend Socket.IO server
 
 // Header Component
 const Header = () => {
